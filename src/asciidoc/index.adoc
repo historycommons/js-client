@@ -1,0 +1,23 @@
+= History Commons JS Client
+Sean Gilligan <sean@msgilligan.com>; Derek Mitchell <dmitchell@historycommons.org>
+V0.1, 2013-10-08
+
+== Introduction
+
+The History Commons JS Client is a JavaScript-based client for viewing History Commons timelines.
+
+NOTE: Since this is my first project to use AsciiDoctor, I'm not worrying about styling yet and focusing on learning the semantics of content creation.
+
+== Requirements
+
+== Architectural Context
+
+=== Related Projects
+
+=== Architectural Overview
+
+== Proposed Architecture
+
+== To Do List
+
+

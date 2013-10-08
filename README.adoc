@@ -1,0 +1,43 @@
+= History Commons js-client README
+
+Currently the js-client project is in the specification phase. This project consists of http://asciidoctor.org[AsciiDoctor] documentation and a http://gradle.org[Gradle] build file for converting it to HTML.
+
+== Install Tools
+
+. Make sure you have http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html[Java 7 JDK] or later installed on your computer.  Note: JDK means Java Developer Kit and is different (more complete) than the Java Runtime Environment or JRE.
+
+. Make sure your terminal environment is using Java JDK 7 or later, by using the following command:
+
+ java -version
+
+If you've installed JDK 7 and +java -version+ is not reporting version 1.7 or later, you'll need to enter the following command in your terminal or add it to your +~/.bashrc+ file.
+
+ export JAVA_HOME=`/usr/libexec/java_home -v1.7`
+
+== Editing Documentation
+
+Right now the documentation consists of a single file link:src/asciidoc/index.adoc[index.adoc],  Open the +index.adoc+ file with any text-editor and edit using http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax].
+
+== Building Documentation
+
+The documentation is built using the https://github.com/asciidoctor/asciidoctor-gradle-plugin[AsciiDoctor Gradle Plugin].
+
+Build the documentation by using the +asciidoctor+ Gradle task as follows:
+
+ ./gradlew asciidoctor
+
+After running the +asciidoctor+ task you can view the documentation in your web browser with
+
+ open build/docs/index.html
+
+== Publishing the Documentation
+
+TBD: Configure +build.gradle+ and add instructions for publishing the documentation to http://pages.github.com[GitHub Pages]
+
+== License
+
+License information goes here.
+
+== About this README
+
+This +README.adoc+ file is also in AsciiDoc format.  GitHub provides https://github.com/github/markup[built-in support] for AsciiDoc format.
